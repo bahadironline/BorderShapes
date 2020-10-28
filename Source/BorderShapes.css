@@ -3,6 +3,8 @@
 /*--------------------------------*/
 
 button,
+.peopleListItem-2nzedh.active-rhSpJJ,
+.peopleListItem-2nzedh:hover,
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx,
 .option-96V44q,
 .button-1ZiXG9.selected-LCBEAU,
@@ -43,6 +45,7 @@ button,
 .button-3HqqDX,
 .button-Jt-tIg,
 .stickerCategory-3Yz7vN,
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3,
 .bd-button,
 #bd-pub-button,
 .bd-addon-list .bd-card-footer button,
@@ -103,6 +106,7 @@ button,
    border-radius: 0 var(--borders-buttons-2) var(--borders-buttons-2) 0;
 }
 .closeButton-1tv5uR,
+.actionButton-uPB8Fs,
 .wrapper-129saQ,
 .contextMenuNub-3yOOYo,
 .button-F9qN4n,
@@ -191,6 +195,7 @@ button,
 .searchAnswer-3Dz2-q,
 .container-2XeR5Z,
 .input-cIJ7To,
+.channelTextArea-2VhZ6z.highlighted-2eSV1B,
 .phoneVerificationModal-OzcDc3 .field-wKpjTl,
 .gameNameInput-385LoS {
    border-radius: var(--borders-inputs);
@@ -315,7 +320,9 @@ button,
 .svg-1X37T1,
 .wrapper-25eVIn foreignObject,
 .guildIcon-3W0pfo foreignObject,
-.categoryItemGuildCategory-3MisqI foreignObject {
+.categoryItemGuildCategory-3MisqI foreignObject,
+.mask-2hO5M8 foreignObject,
+[mask="url(#svg-mask-squircle)"] {
    mask: none;
    border-radius: var(--borders-servers);
 }
@@ -338,14 +345,6 @@ button,
    -webkit-mask: none;
    border-radius: var(--borders-servers) !important;
 }
-.mask-2hO5M8 foreignObject {
-   mask: none;
-   border-radius: var(--borders-servers);
-}
-[mask="url(#svg-mask-squircle)"] {
-   mask: none;
-   border-radius: var(--borders-servers);
-}
 
 /*---------------------------------------*/
 /*-----{Servers badges border shape}-----*/
@@ -354,6 +353,11 @@ button,
 .numberBadge-2s8kKX,
 .base-PmTxvP {
    border-radius: var(--borders-server-badges);
+}
+.lowerBadge-29hYVK,
+.upperBadge-2XnnGB {
+   background-color: var(--borders-color-server-badges) !important;
+   border: 2px solid var(--borders-color-server-badges) !important;
 }
 .lowerBadge-29hYVK {
    border: 4px solid var(--borders-color-server-badges);
@@ -394,6 +398,7 @@ button,
 .avatar-2daVqv,
 .appAvatar-3bgkQ9,
 .embedAuthorIcon--1zR3L,
+.embedFooterIcon-239O1f,
 .iconWrapper-1GmWXs,
 .toast .toast-avatar {
    border-radius: var(--borders-avatars-small);
@@ -619,6 +624,8 @@ button,
 .cardPrimary-1Hv-to,
 .cardPrimaryEditable-3KtE4g,
 .cardHeader-Int16m,
+.peopleListItem-2nzedh.active-rhSpJJ,
+.peopleListItem-2nzedh:hover,
 .background-1QDuV2,
 .card-3DjzTQ,
 .fieldList-21DyL8,
@@ -752,9 +759,18 @@ button,
 .assetsSmallImage-3_3Bzj {
    top: 42px;
    left: 42px;
-   background-color: var(--borders-color-activities-badge) !important;
-   border: 2px solid var(--borders-color-activities-badge) !important;
    border-radius: var(--borders-activities-badge) !important;
+}
+.activity-11LB_k .assetsSmallImage-3_3Bzj {
+   background-color: var(--borders-color-activities-badge-profile) !important;
+   border: 2px solid var(--borders-color-activities-badge-profile) !important;
+}
+.streamPreview-2-WUWT .assetsSmallImage-3_3Bzj {
+   background-color: var(--borders-color-activities-badge-voice) !important;
+   border: 2px solid var(--borders-color-activities-badge-voice) !important;
+}
+.badge-1JXQev {
+   border-radius: var(--borders-activities-badge);
 }
 .assetsLargeMaskStreamPreview-2V7xlA,
 .assetsLargeMaskUserPopout-12EBBc,
@@ -780,6 +796,7 @@ button,
 .premiumLogo-1D3iJc,
 .featureIcon-3p1TC_,
 .artwork-1vrmJ_,
+.status-254fhp,
 .ServerFolders-modal .iconSwatch-_78Ghj {
    border-radius: var(--borders-icons-large);
 }
@@ -794,12 +811,20 @@ button,
 .feature-3kpTdS,
 .pillIcon-BaqtHs,
 .emojiContainer-1u-_sQ,
+.icon-3Oovq9,
 .bd-server-tag {
    border-radius: var(--borders-icons-small) !important;
 }
 .moreUsers-7v8yWY {
    margin-left: 4px;
    border-radius: var(--borders-icons-small);
+}
+.moreUsers-7v8yWY:last-child {
+   margin-left: 0px;
+}
+.regionSelectFlag-3uwFtG {
+   border-radius: var(--borders-icons-small);
+   background-color: transparent;
 }
 .iconBadge-qZ4Ksk,
 .dotSeparator-2SMscJ {
@@ -954,7 +979,10 @@ button,
 /*-------------------------------*/
 
 .toast,
-.bd-toast {
+.bd-toast,
+.powercord-toast,
+.powercord-toast .header,
+.small-1CUeBa {
    border-radius: var(--borders-toasts) !important;
 }
 
@@ -971,6 +999,8 @@ button,
 /*-----{Scrollbars border shape}-----*/
 /*-----------------------------------*/
 
+.scrollbarGhost-2F9Zj2::-webkit-scrollbar-thumb,
+.scrollbarGhost-2F9Zj2::-webkit-scrollbar-track,
 .sidebarRegionScroller-3MXcoP::-webkit-scrollbar-thumb,
 .contentRegionScroller-26nc1e::-webkit-scrollbar-thumb,
 .contentRegionScroller-26nc1e::-webkit-scrollbar-track,
