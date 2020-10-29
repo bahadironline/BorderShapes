@@ -138,9 +138,11 @@ button,
 /*-----{Checkboxes border shape}-----*/
 /*-----------------------------------*/
 
-.checkbox-1ix_J3,
+.checkbox-1ix_J3 {
+   border-radius: var(--borders-checkboxes-large);
+}
 .checkbox-3kaeSU .checkboxInner-3yjcPe span {
-   border-radius: var(--borders-checkboxes);
+   border-radius: var(--borders-checkboxes-small);
 }
 
 /*--------------------------------*/
@@ -405,9 +407,9 @@ button,
    border-radius: var(--borders-avatars-small);
 }
 .partyMember-1CzxeX {
-   margin-left: 4px;
-   mask: none;
    -webkit-mask: none;
+   mask: none;
+   margin-left: 4px;
    border-radius: var(--borders-avatars-small);
 }
 .avatarContainer-3CQrif,
@@ -442,7 +444,7 @@ button,
    rx: var(--borders-avatars-small) !important;
    ry: var(--borders-avatars-small) !important;
    fill: transparent !important;
-   stroke-width: 2px;
+   stroke-width: var(--borders-status-width);
 }
 .wrapper-3t9DeA .cursorDefault-dsQJ1n rect {
    x: -48;
@@ -460,11 +462,11 @@ button,
    ry: var(--borders-avatars-large) !important;
    border-radius: var(--borders-avatars-large) !important;
 }
-.wrapper-3t9DeA[style*="width: 80px;"][style*="width:80px;"]:after {
-   left: unset;
-   right: -2px;
+.wrapper-3t9DeA[style*="width: 80px;"]:after {
    top: unset;
+   right: -2px;
    bottom: -2px;
+   left: unset;
    transform: none;
 }
 .wrapper-3t9DeA[style*="width: 32px;"] rect {
@@ -473,8 +475,8 @@ button,
    x: -14.5;
    y: -17;
    position: relative;
-   z-index: 0;
    border-radius: var(--borders-avatars-small) !important;
+   z-index: 0;
 }
 .wrapper-3t9DeA rect[x="28"] {
    width: 40px;
@@ -495,11 +497,11 @@ button,
    border-radius: var(--borders-avatars-small) !important;
 }
 .wrapper-3t9DeA .pointerEvents-2zdfdO[x="14.5"] {
-   fill: rgba(0, 0, 0, 0.5) !important;
    width: 30px;
    height: 30px;
    x: 1;
    y: 1;
+   fill: rgba(0, 0, 0, 0.5) !important;
 }
 .wrapper-3t9DeA foreignObject[mask*=mobile]:before {
    content: "";
@@ -514,11 +516,11 @@ button,
 }
 .wrapper-3t9DeA foreignObject[mask*=mobile]:after {
    content: "";
-   -webkit-mask: url('data:image/svg+xml; utf-8,<svg aria-hidden="true" focusable="false" data-prefix="fas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>') center/8px no-repeat;
-   -webkit-mask-size: 30%;
-   position: absolute;
+   mask: url('data:image/svg+xml; utf-8,<svg aria-hidden="true" focusable="false" data-prefix="fas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>') center/8px no-repeat;
+   mask-size: 30%;
    width: 100%;
    height: 100%;
+   position: absolute;
    top: 50%;
    left: 50%;
    background-color: #43b581;
@@ -539,6 +541,18 @@ button,
    -webkit-clip-path: inset(2px round var(--borders-avatars-large));
    clip-path: inset(2px round var(--borders-avatars-large));
 }
+#app-mount .wrapper-3t9DeA > svg > foreignObject:not(:only-child) img {
+   -webkit-clip-path: inset(calc(var(--borders-status-spacing) + 1px) calc(var(--borders-status-spacing) + 1px) round var(--borders-avatars-small));
+   clip-path: inset(calc(var(--borders-status-spacing) + 1px) calc(var(--borders-status-spacing) + 1px) round var(--borders-avatars-small));
+}
+#app-mount .wrapper-3t9DeA[style*="width: 80px;"] img {
+   -webkit-clip-path: inset(calc(var(--borders-status-spacing) + 1px) calc(var(--borders-status-spacing) + 1px) round var(--borders-avatars-large));
+   clip-path: inset(calc(var(--borders-status-spacing) + 1px) calc(var(--borders-status-spacing) + 1px) round var(--borders-avatars-large));
+}
+#app-mount .message-1PNnaP .mask-1l8v16 img {
+   -webkit-clip-path: circle(calc(19px - var(--borders-status-spacing)));
+   clip-path: circle(calc(19px - var(--borders-status-spacing)));
+}
 .avatarHint-1qgaV3 foreignObject {
    -webkit-mask: none;
    mask: none;
@@ -555,8 +569,8 @@ button,
    margin-right: 20px !important;
 }
 .avatar-3W3CeO {
-   left: 1px;
    top: 1px;
+   left: 1px;
 }
 .message-1PNnaP .mask-1l8v16 img {
    -webkit-clip-path: circle(18px);
