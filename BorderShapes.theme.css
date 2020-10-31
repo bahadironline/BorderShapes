@@ -12,58 +12,64 @@
 
 :root {
    --borders-buttons-1: 5px; /*Border shapes for most buttons. 20px for circle, 0px for square.*/
-   --borders-buttons-2: 2px; /*Border shapes for context menus and profile action buttons. 20px for circle, 0px for square.*/
-   --borders-buttons-3: 20px; /*Border shapes for circle buttons. 20px for circle, 0px for square.*/
-   --borders-buttons-4: 5px; /*Border shapes for color picker buttons. 20px for circle, 0px for square.*/
+   --borders-buttons-2: 4px; /*Border shapes for categories, channels and users. 20px for circle, 0px for square.*/
+   --borders-buttons-3: 2px; /*Border shapes for context menus and profile action buttons. 20px for circle, 0px for square.*/
+   --borders-buttons-4: 20px; /*Border shapes for circle buttons. 20px for circle, 0px for square.*/
+   --borders-buttons-5: 5px; /*Border shapes for color picker buttons. 20px for circle, 0px for square.*/
+   --borders-buttons-6: 4px; /*Border shapes for GIF picker buttons and stream windows. 25px for circle, 0px for square.*/
    --borders-switches: 15px; /*Border shapes for switches. 15px for circle, 0px for square.*/
-   --borders-checkboxes-large: 0px; /*Border shapes for large checkboxes. 15px for circle, 0px for square.*/
-   --borders-checkboxes-small: 0px; /*Border shapes for small checkboxes. 10px for circle, 0px for square.*/
+   --borders-checkboxes-large: 15px; /*Border shapes for large checkboxes. 15px for circle, 0px for square.*/
+   --borders-checkboxes-small: 10px; /*Border shapes for small checkboxes. 10px for circle, 0px for square.*/
    --borders-slider-bars: 5px; /*Border shapes for slider bars. 5px for circle, 0px for square.*/
-   --borders-slider-grabbers: 8px; /*Border shapes for slider grabbers. 8px for circle, 0px for square.*/
+   --borders-slider-grabbers-1: 8px; /*Border shapes for circle slider grabbers. 8px for circle, 0px for square.*/
+   --borders-slider-grabbers-2: 3px; /*Border shapes for squircle slider grabbers. 5px for circle, 0px for square.*/
    --borders-progress-bars: 5px; /*Border shapes for progress bars. 5px for circle, 0px for square.*/
    --borders-inputs: 5px; /*Border shapes for inputs. 25px for circle, 0px for square.*/
    --borders-contexts: 5px; /*Border shapes for context menus. 25px for circle, 0px for square.*/
    --borders-popouts: 5px; /*Border shapes for popouts. 25px for circle, 0px for square.*/
    --borders-modals: 5px; /*Border shapes for modals. 25px for circle, 0px for square.*/
-   --borders-users: 5px; /*Border shapes for hovered and selected users. 25px for circle, 0px for square.*/
    --borders-servers: 50%; /*Border shapes for servers. 50% for circle, 0% for square.*/
    --borders-server-badges: 10px; /*Border shapes for server badges. 10px for circle, 0px for square.*/
    --borders-unreads: 5px; /*Border shapes for unread badges. 5px for circle, 0px for square.*/
-   --borders-avatars-large: 40px; /*Border shapes for large avatars. 40px for circle, 0px for square.*/
-   --borders-avatars-small: 20px; /*Border shapes for small avatars. 20px for circle, 0px for square.*/
+   --borders-avatars-1: 40px; /*Border shapes for popout and modal avatars. 40px for circle, 0px for square.*/
+   --borders-avatars-2: 20px; /*Border shapes for chat and memberlist avatars. 20px for circle, 0px for square.*/
+   --borders-avatars-3: 15px; /*Border shapes for other avatars. 15px for circle, 0px for square.*/
    --borders-status-width: 2px; /*Border width for status for avatars. Default - 2px.*/
    --borders-status-spacing: 1px; /*Border spacing after status for avatars. Default - 1px.*/
    --borders-sidebar: 8px; /*Border shapes for top left sidebar corner. 25px for circle, 0px for square.*/
    --borders-notices: 8px; /*Border shapes for top left notices corner. 25px for circle, 0px for square.*/
-   --borders-banners-1: 5px; /*Border shapes for most banners and cards. 25px for circle, 0px for square.*/
-   --borders-banners-2: 20px; /*Border shapes for other banners and cards. 20px for circle, 0px for square.*/
+   --borders-cards: 3px; /*Border shapes for cards. 25px for circle, 0px for square.*/
+   --borders-banners: 5px; /*Border shapes for banners. 25px for circle, 0px for square.*/
    --borders-previews: 5px; /*Border shapes for previews. 25px for circle, 0px for square.*/
    --borders-hypesquad: 50%; /*Border shapes for HypeSquad icons in user settings. 50% for circle, 0% for square.*/
-   --borders-activities-large: 5px; /*Border shapes for large activity icons (Playing, Listening and more). 25px for circle, 0px for square.*/
-   --borders-activities-small: 5px; /*Border shapes for small activity icons (Playing, Listening and more). 25px for circle, 0px for square.*/
-   --borders-activities-badge: 12px; /*Border shapes for activity small badges. 12px for circle, 0px for square.*/
+   --borders-activities-large: 8px; /*Border shapes for large activity icons (Playing, Listening and more). 45px for circle, 0px for square.*/
+   --borders-activities-small: 8px; /*Border shapes for small activity icons (Playing, Listening and more). 30px for circle, 0px for square.*/
+   --borders-activities-badge-large: 20px; /*Border shapes for activity badges. 20px for circle, 0px for square.*/
+   --borders-activities-badge-small: 12px; /*Border shapes for activity badges. 12px for circle, 0px for square.*/
    --borders-icons-large: 5px; /*Border shapes for large icons. 25px for circle, 0px for square.*/
-   --borders-icons-small: 10px; /*Border shapes for small icons. 10px for circle, 0px for square.*/
+   --borders-icons-small: 5px; /*Border shapes for small icons. 10px for circle, 0px for square.*/
    --borders-icons-dots: 5px; /*Border shapes for dot icons. 5px for circle, 0px for square.*/
-   --borders-images: 5px; /*Border shapes for images previews. 25px for circle, 0px for square.*/
+   --borders-labels-large: 15px; /*Border shapes for large labels. 15px for circle, 0px for square.*/
+   --borders-labels-small: 10px; /*Border shapes for small labels. 10px for circle, 0px for square.*/
+   --borders-images-and-gifs: 5px; /*Border shapes for images and gifs previews. 25px for circle, 0px for square.*/
    --borders-videos: 5px; /*Border shapes for videos previews. 25px for circle, 0px for square.*/
    --borders-audios: 5px; /*Border shapes for audios previews. 25px for circle, 0px for square.*/
-   --borders-gifs: 5px; /*Border shapes for GIFs. 25px for circle, 0px for square.*/
-   --borders-embeds: 2px; /*Border shapes for embeds. 25px for circle, 0px for square.*/
+   --borders-embeds: 4px; /*Border shapes for embeds. 25px for circle, 0px for square.*/
    --borders-reactions: 4px; /*Border shapes for reactions. 10px for circle, 0px for square.*/
    --borders-mentions: 4px; /*Border shapes for mentions. 10px for circle, 0px for square.*/
-   --borders-roles: 10px; /*Border shapes for roles. 10px for circle, 0px for square.*/
+   --borders-roles-outline: 10px; /*Border shapes for role outline. 10px for circle, 0px for square.*/
+   --borders-roles-dots: 10px; /*Border shapes for role dots. 10px for circle, 0px for square.*/
    --borders-tags: 3px; /*Border shapes for tags. 10px for circle, 0px for square.*/
    --borders-format-toolbars: 4px; /*Border shapes for formatting toolbars. 10px for circle, 0px for square.*/
-   --borders-codes: 4px; /*Border shapes for codes and codeblocks. 10px for circle, 0px for square.*/
-   --borders-spoilers: 4px; /*Border shapes for spoilers. 10px for circle, 0px for square.*/
+   --borders-codes: 3px; /*Border shapes for codes and codeblocks. 10px for circle, 0px for square.*/
+   --borders-spoilers: 3px; /*Border shapes for spoilers. 10px for circle, 0px for square.*/
    --borders-quotes: 2px; /*Border shapes for quote icon. 2px for circle, 0px for square.*/
-   --borders-search-highlights: 0px; /*Border shapes for highlights in search results. 10px for circle, 0px for square.*/
    --borders-toasts: 5px; /*Border shapes for toasts. 25px for circle, 0px for square.*/
    --borders-tooltips: 5px; /*Border shapes for tooltips. 25px for circle, 0px for square.*/
    --borders-scrollbars: 10px; /*Border shapes for scrollbars. 10px for circle, 0px for square.*/
    --borders-editors: 0px; /*Border shapes for editors workspace. 25px for circle, 0px for square.*/
    --borders-color-server-badges: #202225; /*Borders color for server badges. Default - #202225.*/
+   --borders-color-unread-pinned-message: #36393f; /*Borders color for unread pinned messages badge. Default - #36393f.*/
    --borders-color-activities-badge-profile: #6c82cf; /*Borders color for activity badge in profile popout and modal. Default - #6c82cf.*/
    --borders-color-activities-badge-voice: #202225; /*Borders color for activity badge on voice channel hover. Default - #202225.*/
 }
