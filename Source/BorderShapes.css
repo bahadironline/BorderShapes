@@ -1,6 +1,6 @@
-/*--------------------------------*/
-/*-----{Buttons border shape}-----*/
-/*--------------------------------*/
+/*---------------------------------*/
+/*-----{Buttons border shapes}-----*/
+/*---------------------------------*/
 
 button,
 .peopleListItem-2nzedh.active-rhSpJJ,
@@ -11,7 +11,6 @@ button,
 .labelContainer-1BLJti,
 .tabBar-ZmDY9v .item-3HknzM,
 .card-3RzMcx,
-.content-3at_AU,
 .side-8zPYf6 .item-PXvHYJ,
 .container-UC8Ug1,
 .container-1nZlH6,
@@ -85,6 +84,10 @@ button,
 .ace_searchbtn {
    border-radius: 0 var(--borders-buttons-1) var(--borders-buttons-1) 0 !important;
 }
+.layout-2DM8Md,
+.content-3at_AU {
+   border-radius: var(--borders-buttons-2);
+}
 .labelContainer-1BLJti,
 .item-1tOPte,
 .actionsStreamPreview-2JlX14 .buttonSize-2Pmk-w,
@@ -95,35 +98,45 @@ button,
 .applicationStreamingHoverText-IEVyfS,
 .wrapper-3Rixsz,
 .memberListItem-31QoHj,
+.content-3xS9Lh,
 #bd-editor-controls button,
 .channelTabs-selected {
-   border-radius: var(--borders-buttons-2) !important;
+   border-radius: var(--borders-buttons-3) !important;
 }
 .item-3T2z1R:first-child {
-   border-radius: var(--borders-buttons-2) 0 0 var(--borders-buttons-2);
+   border-radius: var(--borders-buttons-3) 0 0 var(--borders-buttons-3);
 }
 .item-3T2z1R:last-child {
-   border-radius: 0 var(--borders-buttons-2) var(--borders-buttons-2) 0;
+   border-radius: 0 var(--borders-buttons-3) var(--borders-buttons-3) 0;
 }
 .closeButton-1tv5uR,
 .actionButton-uPB8Fs,
+.actionButton-VzECiy,
 .wrapper-129saQ,
 .contextMenuNub-3yOOYo,
 .button-F9qN4n,
 .ace_searchbtn_close,
 .powercord-quickcss-editor-settings .close,
 .channelTabs-newTab {
-   border-radius: var(--borders-buttons-3) !important;
+   border-radius: var(--borders-buttons-4) !important;
 }
 .colorPickerSwatch-5GX3Ve.default-cS_caM,
 .colorPickerSwatch-5GX3Ve.custom-2SJn4n,
 .colorPickerSwatch-5GX3Ve {
-   border-radius: var(--borders-buttons-4);
+   border-radius: var(--borders-buttons-5);
+}
+.gif-1TcNIB,
+.categoryFade-2ybR1J,
+.categoryFadeBlurple-1j72_A,
+.result-3w1ZcL,
+.result-3w1ZcL:after,
+.sourceThumbnail-27dolk {
+   border-radius: var(--borders-buttons-6);
 }
 
-/*---------------------------------*/
-/*-----{Switches border shape}-----*/
-/*---------------------------------*/
+/*----------------------------------*/
+/*-----{Switches border shapes}-----*/
+/*----------------------------------*/
 
 .container-3auIfb,
 .bd-switch,
@@ -134,9 +147,9 @@ button,
    rx: var(--borders-switches);
 }
 
-/*-----------------------------------*/
-/*-----{Checkboxes border shape}-----*/
-/*-----------------------------------*/
+/*------------------------------------*/
+/*-----{Checkboxes border shapes}-----*/
+/*------------------------------------*/
 
 .checkbox-1ix_J3 {
    border-radius: var(--borders-checkboxes-large);
@@ -145,18 +158,13 @@ button,
    border-radius: var(--borders-checkboxes-small);
 }
 
-/*--------------------------------*/
-/*-----{Sliders border shape}-----*/
-/*--------------------------------*/
+/*---------------------------------*/
+/*-----{Sliders border shapes}-----*/
+/*---------------------------------*/
 
 .bar-2Qqk5Z,
 .mediaBarInteractionVolume-3QZqYd {
    border-radius: var(--borders-slider-bars);
-}
-.grabber-3mFHz2,
-.mini-dmm9yo .grabber-3mFHz2,
-.mediaBarGrabber-1FqnbN {
-   border-radius: var(--borders-slider-grabbers);
 }
 .fakeEdges-27pgtp:before {
    border-radius: var(--borders-slider-bars) 0 0 var(--borders-slider-bars);
@@ -164,10 +172,17 @@ button,
 .fakeEdges-27pgtp:after {
    border-radius: 0 var(--borders-slider-bars) var(--borders-slider-bars) 0;
 }
+.mini-dmm9yo .grabber-3mFHz2 {
+   border-radius: var(--borders-slider-grabbers-1);
+}
+.grabber-3mFHz2,
+.mediaBarGrabber-1FqnbN {
+   border-radius: var(--borders-slider-grabbers-2);
+}
 
-/*--------------------------------------*/
-/*-----{Progress bars border shape}-----*/
-/*--------------------------------------*/
+/*---------------------------------------*/
+/*-----{Progress bars border shapes}-----*/
+/*---------------------------------------*/
 
 .bar-3urHkF,
 .barInner-3NDaY_,
@@ -176,10 +191,11 @@ button,
    border-radius: var(--borders-progress-bars) !important;
 }
 
-/*-------------------------------*/
-/*-----{Inputs border shape}-----*/
-/*-------------------------------*/
+/*--------------------------------*/
+/*-----{Inputs border shapes}-----*/
+/*--------------------------------*/
 
+.wrapper-1cBijl,
 .input-2_SIlA,
 .input-2A_zIr,
 .inputDefault-_djjkz,
@@ -190,7 +206,6 @@ button,
 .input-2VB9rf,
 .searchBar-3dMhjb,
 .searchBar-5di9mG,
-.bd-search-wrapper,
 .scrollableContainer-2NUZem,
 .search-1iTphC .searchBox-2_mAlO,
 .searchFilter-2ESiM3,
@@ -199,24 +214,25 @@ button,
 .input-cIJ7To,
 .channelTextArea-2VhZ6z.highlighted-2eSV1B,
 .phoneVerificationModal-OzcDc3 .field-wKpjTl,
-.gameNameInput-385LoS {
+.gameNameInput-385LoS,
+.bd-search-wrapper {
    border-radius: var(--borders-inputs);
 }
 .ace_search_field {
    border-radius: var(--borders-inputs) 0 0 var(--borders-inputs) !important;
 }
 
-/*---------------------------------*/
-/*-----{Contexts border shape}-----*/
-/*---------------------------------*/
+/*----------------------------------*/
+/*-----{Contexts border shapes}-----*/
+/*----------------------------------*/
 
 .menu-3sdvDG {
    border-radius: var(--borders-contexts);
 }
 
-/*--------------------------------*/
-/*-----{Popouts border shape}-----*/
-/*--------------------------------*/
+/*---------------------------------*/
+/*-----{Popouts border shapes}-----*/
+/*---------------------------------*/
 
 .userPopout-3XzG_A,
 #status-picker,
@@ -277,9 +293,9 @@ button,
    border-radius: 0 0 0 var(--borders-popouts) !important;
 }
 
-/*-------------------------------*/
-/*-----{Modals border shape}-----*/
-/*-------------------------------*/
+/*--------------------------------*/
+/*-----{Modals border shapes}-----*/
+/*--------------------------------*/
 
 .root-SR8cQa,
 .root-1gCeng,
@@ -292,7 +308,7 @@ button,
 #EditUploadsModal,
 .themedPopout-1TrfdI,
 #permissions-modal-wrapper #permissions-modal {
-   border-radius: var(--borders-modals);
+   border-radius: var(--borders-modals) !important;
 }
 .header-1TKi98 {
    border-radius: var(--borders-modals) var(--borders-modals) 0 0;
@@ -307,17 +323,9 @@ button,
    border-radius: 0 var(--borders-modals) var(--borders-modals) 0;
 }
 
-/*------------------------------*/
-/*-----{Users border shape}-----*/
-/*------------------------------*/
-
-.layout-2DM8Md {
-   border-radius: var(--borders-users);
-}
-
-/*--------------------------------*/
-/*-----{Servers border shape}-----*/
-/*--------------------------------*/
+/*---------------------------------*/
+/*-----{Servers border shapes}-----*/
+/*---------------------------------*/
 
 .svg-1X37T1,
 .wrapper-25eVIn foreignObject,
@@ -348,9 +356,9 @@ button,
    border-radius: var(--borders-servers) !important;
 }
 
-/*---------------------------------------*/
-/*-----{Servers badges border shape}-----*/
-/*---------------------------------------*/
+/*----------------------------------------*/
+/*-----{Servers badges border shapes}-----*/
+/*----------------------------------------*/
 
 .numberBadge-2s8kKX,
 .base-PmTxvP {
@@ -358,7 +366,6 @@ button,
 }
 .lowerBadge-29hYVK,
 .upperBadge-2XnnGB {
-   background-color: var(--borders-color-server-badges) !important;
    border: 4px solid var(--borders-color-server-badges) !important;
    border-radius: calc(var(--borders-server-badges) + 2px);
 }
@@ -371,9 +378,9 @@ button,
    right: -4px;
 }
 
-/*--------------------------------*/
-/*-----{Unreads border shape}-----*/
-/*--------------------------------*/
+/*---------------------------------*/
+/*-----{Unreads border shapes}-----*/
+/*---------------------------------*/
 
 .item-2hkk8m,
 .unread-3zKkbm,
@@ -381,36 +388,39 @@ button,
    border-radius: 0 var(--borders-unreads) var(--borders-unreads) 0;
 }
 
-/*--------------------------------*/
-/*-----{Avatars border shape}-----*/
-/*--------------------------------*/
+/*---------------------------------*/
+/*-----{Avatars border shapes}-----*/
+/*---------------------------------*/
 
 .avatarUploaderInner-2EvNMg,
 .avatarWrapperNormal-3wFMbf,
-.wrapper-3t9DeA,
 #AvatarHover {
-   border-radius: var(--borders-avatars-large) !important;
+   border-radius: var(--borders-avatars-1) !important;
 }
+.wrapper-3t9DeA,
 .avatar-1BDn8e,
-.avatar-3elDyV,
-.avatar-3bWpYy,
-.avatar-2daVqv,
 .appAvatar-3bgkQ9,
+.avatar-3elDyV,
+.avatar-2daVqv {
+   border-radius: var(--borders-avatars-2);
+}
+.option-96V44q.user-O3Czj0 .displayAvatar-1wWlVM,
+.avatar-3bWpYy,
 .embedAuthorIcon--1zR3L,
 .embedFooterIcon-239O1f,
 .iconWrapper-1GmWXs,
 .toast .toast-avatar {
-   border-radius: var(--borders-avatars-small);
+   border-radius: var(--borders-avatars-3);
 }
 .avatarContainerMasked-PIJ-3L foreignObject {
    mask: none;
-   border-radius: var(--borders-avatars-small);
+   border-radius: var(--borders-avatars-3);
 }
 .partyMember-1CzxeX {
    -webkit-mask: none;
    mask: none;
    margin-left: 4px;
-   border-radius: var(--borders-avatars-small);
+   border-radius: var(--borders-avatars-3);
 }
 .avatarContainer-3CQrif,
 .avatarContainerMasked-PIJ-3L {
@@ -441,8 +451,8 @@ button,
    x: 0;
    y: 0;
    display: block !important;
-   rx: var(--borders-avatars-small) !important;
-   ry: var(--borders-avatars-small) !important;
+   rx: var(--borders-avatars-2) !important;
+   ry: var(--borders-avatars-2) !important;
    fill: transparent !important;
    stroke-width: var(--borders-status-width);
 }
@@ -458,9 +468,9 @@ button,
    width: 80px;
    height: 80px;
    pointer-events: none;
-   rx: var(--borders-avatars-large) !important;
-   ry: var(--borders-avatars-large) !important;
-   border-radius: var(--borders-avatars-large) !important;
+   rx: var(--borders-avatars-1) !important;
+   ry: var(--borders-avatars-1) !important;
+   border-radius: var(--borders-avatars-1) !important;
 }
 .wrapper-3t9DeA[style*="width: 80px;"]:after {
    top: unset;
@@ -475,7 +485,7 @@ button,
    x: -14.5;
    y: -17;
    position: relative;
-   border-radius: var(--borders-avatars-small) !important;
+   border-radius: var(--borders-avatars-2) !important;
    z-index: 0;
 }
 .wrapper-3t9DeA rect[x="28"] {
@@ -484,8 +494,8 @@ button,
    overflow: visible;
 }
 .wrapper-3t9DeA svg[width="25"][height="15"] > rect {
-   rx: var(--borders-avatars-small) !important;
-   ry: var(--borders-avatars-small) !important;
+   rx: var(--borders-avatars-2) !important;
+   ry: var(--borders-avatars-2) !important;
 }
 .wrapper-3t9DeA .mask-1l8v16 > rect[x="22"] {
    x: 0;
@@ -494,7 +504,7 @@ button,
 .wrapper-3t9DeA rect[x="16"] {
    width: 24px;
    height: 24px;
-   border-radius: var(--borders-avatars-small) !important;
+   border-radius: var(--borders-avatars-2) !important;
 }
 .wrapper-3t9DeA .pointerEvents-2zdfdO[x="14.5"] {
    width: 30px;
@@ -511,7 +521,18 @@ button,
    top: 0%;
    left: 0%;
    background-color: rgba(0, 0, 0, 0.6);
-   border-radius: calc(var(--borders-avatars-large) / 2);
+   border-radius: var(--borders-avatars-2);
+   z-index: 1;
+}
+.wrapper-3t9DeA[style*="width: 80px;"] foreignObject[mask*=mobile]:before {
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0%;
+   left: 0%;
+   background-color: rgba(0, 0, 0, 0.6);
+   border-radius: var(--borders-avatars-1);
    z-index: 1;
 }
 .wrapper-3t9DeA foreignObject[mask*=mobile]:after {
@@ -528,28 +549,28 @@ button,
    z-index: 1;
 }
 .wrapper-3t9DeA > svg > foreignObject img {
-   border-radius: var(--borders-avatars-small);
+   border-radius: var(--borders-avatars-2);
 }
 .wrapper-3t9DeA > svg > foreignObject[height="80"] img {
-   border-radius: var(--borders-avatars-large);
+   border-radius: var(--borders-avatars-1);
 }
 .wrapper-3t9DeA > svg > foreignObject:not(:only-child) img {
-   -webkit-clip-path: inset(2px round var(--borders-avatars-small));
-   clip-path: inset(2px round var(--borders-avatars-small));
+   -webkit-clip-path: inset(2px round var(--borders-avatars-2));
+   clip-path: inset(2px round var(--borders-avatars-2));
 }
 .wrapper-3t9DeA > svg > foreignObject:not(:only-child)[height="80"] img {
-   -webkit-clip-path: inset(2px round var(--borders-avatars-large));
-   clip-path: inset(2px round var(--borders-avatars-large));
+   -webkit-clip-path: inset(2px round var(--borders-avatars-1));
+   clip-path: inset(2px round var(--borders-avatars-1));
 }
-#app-mount .wrapper-3t9DeA > svg > foreignObject:not(:only-child) img {
-   -webkit-clip-path: inset(calc(var(--borders-status-spacing) + 1px) calc(var(--borders-status-spacing) + 1px) round var(--borders-avatars-small));
-   clip-path: inset(calc(var(--borders-status-spacing) + 1px) calc(var(--borders-status-spacing) + 1px) round var(--borders-avatars-small));
+.wrapper-3t9DeA > svg > foreignObject:not(:only-child) img {
+   -webkit-clip-path: inset(calc(var(--borders-status-spacing) + 1px) calc(var(--borders-status-spacing) + 1px) round var(--borders-avatars-2));
+   clip-path: inset(calc(var(--borders-status-spacing) + 1px) calc(var(--borders-status-spacing) + 1px) round var(--borders-avatars-2));
 }
-#app-mount .wrapper-3t9DeA[style*="width: 80px;"] img {
-   -webkit-clip-path: inset(calc(var(--borders-status-spacing) + 1px) calc(var(--borders-status-spacing) + 1px) round var(--borders-avatars-large));
-   clip-path: inset(calc(var(--borders-status-spacing) + 1px) calc(var(--borders-status-spacing) + 1px) round var(--borders-avatars-large));
+.wrapper-3t9DeA[style*="width: 80px;"] img {
+   -webkit-clip-path: inset(calc(var(--borders-status-spacing) + 1px) calc(var(--borders-status-spacing) + 1px) round var(--borders-avatars-1));
+   clip-path: inset(calc(var(--borders-status-spacing) + 1px) calc(var(--borders-status-spacing) + 1px) round var(--borders-avatars-1));
 }
-#app-mount .message-1PNnaP .mask-1l8v16 img {
+.message-1PNnaP .mask-1l8v16 img {
    -webkit-clip-path: circle(calc(19px - var(--borders-status-spacing)));
    clip-path: circle(calc(19px - var(--borders-status-spacing)));
 }
@@ -563,7 +584,7 @@ button,
    left: 2px;
    width: 76px;
    height: 76px;
-   border-radius: var(--borders-avatars-large) !important;
+   border-radius: var(--borders-avatars-1) !important;
 }
 .header-QKLPzZ .wrapper-3t9DeA {
    margin-right: 20px !important;
@@ -612,150 +633,131 @@ button,
    stroke: #747f8d;
 }
 
-/*--------------------------------*/
-/*-----{Sidebar border shape}-----*/
-/*--------------------------------*/
+/*---------------------------------*/
+/*-----{Sidebar border shapes}-----*/
+/*---------------------------------*/
 
 .platform-win .sidebar-2K8pFh {
    border-radius: var(--borders-sidebar) 0 0;
 }
 
-/*--------------------------------*/
-/*-----{Notices border shape}-----*/
-/*--------------------------------*/
+/*---------------------------------*/
+/*-----{Notices border shapes}-----*/
+/*---------------------------------*/
 
 .notice-3bPHh- {
    border-radius: var(--borders-notices) 0 0;
 }
 
-/*--------------------------------*/
-/*-----{Banners border shape}-----*/
-/*--------------------------------*/
+/*-------------------------------*/
+/*-----{Cards border shapes}-----*/
+/*-------------------------------*/
 
 .cardPrimary-1Hv-to,
 .cardPrimaryEditable-3KtE4g,
+.cardPrimaryOutline-29Ujqw,
+.cardPrimaryOutlineEditable-PEnpzz,
 .cardHeader-Int16m,
 .peopleListItem-2nzedh.active-rhSpJJ,
 .peopleListItem-2nzedh:hover,
-.background-1QDuV2,
-.card-3DjzTQ,
-.fieldList-21DyL8,
-.wrapper-35wsBm,
-.inset-3sAvek,
-.wrapper-39oAo3,
+.emptyCard-1RJw8n,
 .outer-1AjyKL,
-.messageGroupWrapper-o-Zw7G,
+.inset-3sAvek,
 .applicationStreamingPreviewWrapper-8QqvVY,
 .image-1npAv8,
-.tutorial-3w5I9h,
-.tile-2OwFgW,
+.messageGroupWrapper-o-Zw7G,
+.messageContainer-gbhlwo,
+.messages-3G3erD,
+.message-2qRu38,
+.background-1QDuV2,
+.fieldList-21DyL8,
 .accountList-33MS45,
-.authedApp-mj2Hmd,
 .connection-1fbD7X,
 .connectedAccount-36nQx7,
 .codeRedemptionRedirect-1wVR4b,
-.hero-EvfTTA,
 .feature-2w65J5,
-.banner-WELp4M,
+.featureEmoji-3pTtR2 .featureImage-2L9kA0,
+.featureStickers-Pc_FBx .stickerImageSection-7EUs8E,
+.promotionBanner-1fCSab,
 .cardWrapper-2Min21,
-.wrapper-3nSjSv,
 .tier-1EY-yj,
 .membershipDialog-rVL-t_,
-.videoWrapper-3YdgHH,
-.notDetected-33MY4s,
-.nowPlaying-284llR,
+.option-n0icdO,
+.card-3AyPWq,
+.card-3DjzTQ,
+.card-3Qj_Yx,
+.card-2Mz_4z,
+.activeGame-14JI7o,
 .card-FDVird:before,
 .featureCard-1RR4Tl,
-.tier-3H4BXk,
-.ctaBar-2UsjF2,
-.perk-2WeBWW,
-.actions-6rRvry,
-.upsellFooter-3coAfO,
+.auditLog-3jNbM6,
+.header-GwIGlr,
+.descriptionBox-1EKQKL,
 .perksList-1vtwXn,
 .perks-38PVEp,
-.messages-3G3erD,
-.messageContainer-gbhlwo,
-.message-2qRu38,
-.tile-2naSqK,
-.border-3dQmSY,
-.overlayTitle-8IcS01,
-.settingCard-3w2mVL,
-.emptyCard-1RJw8n,
+.perk-2WeBWW,
 .optionContainer-15srkc,
-.guildDetails-2p1NmK,
-.header-2DNSXx,
-.footer-1lnhms,
-.invite-18yqGF,
-.card-3Qj_Yx,
-.container-o3RxSG,
-.sourceThumbnail-27dolk,
-.card-2Mz_4z,
-.qrCode-wG6ZgU,
-.channelContainer-1x3D6I,
-.placeholder-2erB-x,
-.splashContainer-1rUZiJ,
-.emptyContainer-1_gwCl,
-.overridePlaceholder-14_rPI,
+.wrapper-39oAo3,
+.authBox-hW6HRx,
 .bd-addon-list .bd-addon-card,
 .bd-server-card,
-.powercord-entities-manage-tabs,
-.label-9FgsSa {
-   border-radius: var(--borders-banners-1) !important;
+.powercord-entities-manage-tabs {
+   border-radius: var(--borders-cards) !important;
 }
 .connectionHeader-2MDqhu,
+.featureProfile-tTo0C- .featureImage-2L9kA0,
 .tierHeader-rlkkJd,
 .tierHeader---JJFb,
 .container-2fRDfG {
-   border-radius: var(--borders-banners-1) var(--borders-banners-1) 0 0;
+   border-radius: var(--borders-cards) var(--borders-cards) 0 0;
 }
-.cardFolder-28dwxo,
-.tierBody-x9kBBp,
-.tierBody-16Chc9 {
-   border-radius: 0 0 var(--borders-banners-1) var(--borders-banners-1);
+.featureBadge-3ZA-Ca .featureImage-2L9kA0 {
+   border-radius: var(--borders-cards) 0 0 0;
+}
+.featureGoLive-30cvVw .featureImage-2L9kA0 {
+   height: 100px;
 }
 .sticker-2cpdZp foreignObject {
    mask: none;
-   border-radius: var(--borders-banners-1);
-}
-.overviewSidebar-auQZeh,
-.backgroundImage-3LwoVx {
-   border-radius: var(--borders-banners-1) 0 0 var(--borders-banners-1);
-}
-.coverImageWrapper-22d5LB {
-   border-radius: 0 var(--borders-banners-1) var(--borders-banners-1) 0;
-}
-.ghostPill-2-KUPM,
-.pill-1dHPfk,
-.bar-30k2ka {
-   border-radius: var(--borders-banners-2);
+   border-radius: var(--borders-cards);
 }
 
 /*---------------------------------*/
-/*-----{Previews border shape}-----*/
+/*-----{Banners border shapes}-----*/
 /*---------------------------------*/
+
+.hero-EvfTTA,
+.wrapper-3nSjSv,
+.image-2WjK2f,
+.content-s2SEQO img {
+   border-radius: var(--borders-banners);
+}
+
+/*----------------------------------*/
+/*-----{Previews border shapes}-----*/
+/*----------------------------------*/
 
 .userSettingsVoice-iwdUCU .previewContainer-37c2Si,
 .userSettingsVoice-iwdUCU .media-engine-video,
 .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
 .cameraPreview-3VbjBn,
 .wrapper-3jrx9n,
-.option-n0icdO,
 .preview-2nSL_2 {
    border-radius: var(--borders-previews);
 }
 
-/*----------------------------------*/
-/*-----{HypeSquad border shape}-----*/
-/*----------------------------------*/
+/*-----------------------------------*/
+/*-----{HypeSquad border shapes}-----*/
+/*-----------------------------------*/
 
 .houseLogoWrapper-3XZ6yo,
 .quizResultLogoWrapper-1A5Eb1 {
    border-radius: var(--borders-hypesquad);
 }
 
-/*-----------------------------------*/
-/*-----{Activities border shape}-----*/
-/*-----------------------------------*/
+/*------------------------------------*/
+/*-----{Activities border shapes}-----*/
+/*------------------------------------*/
 
 .assetsLargeImage-eYwpTX,
 .large-1DtyYQ,
@@ -767,22 +769,30 @@ button,
 .small-xOVx-r {
    border-radius: var(--borders-activities-small);
 }
-.assetsSmallImage-3_3Bzj {
-   top: 42px;
-   left: 42px;
-   border-radius: var(--borders-activities-badge) !important;
+.activity-1ythUs .assetsSmallImage-3_3Bzj {
+   background-color: var(--borders-color-activities-badge-profile) !important;
+   border: 3px solid var(--borders-color-activities-badge-profile) !important;
+   border-radius: var(--borders-activities-badge-large) !important;
+   top: 72%;
+   left: 71%;
 }
 .activity-11LB_k .assetsSmallImage-3_3Bzj {
    background-color: var(--borders-color-activities-badge-profile) !important;
    border: 2px solid var(--borders-color-activities-badge-profile) !important;
+   border-radius: var(--borders-activities-badge-small) !important;
+   top: 70%;
+   left: 71%;
 }
 .streamPreview-2-WUWT .assetsSmallImage-3_3Bzj {
    background-color: var(--borders-color-activities-badge-voice) !important;
    border: 2px solid var(--borders-color-activities-badge-voice) !important;
+   top: 70%;
+   left: 71%;
 }
 .badge-1JXQev {
    border-radius: var(--borders-activities-badge);
 }
+.assetsLargeMaskProfile-1Qkfen,
 .assetsLargeMaskStreamPreview-2V7xlA,
 .assetsLargeMaskUserPopout-12EBBc,
 .assetsLargeMaskVoiceChannel-2k1oGM {
@@ -790,9 +800,9 @@ button,
    mask: none;
 }
 
-/*------------------------------*/
-/*-----{Icons border shape}-----*/
-/*------------------------------*/
+/*-------------------------------*/
+/*-----{Icons border shapes}-----*/
+/*-------------------------------*/
 
 .avatarUploaderIndicator-2G-aIZ,
 .tutorialIcon-3f1miQ,
@@ -819,7 +829,6 @@ button,
 .tier-2c9-hT,
 .tierMarker-5HkGJ_,
 .textBadge-1iylP6,
-.feature-3kpTdS,
 .pillIcon-BaqtHs,
 .emojiContainer-1u-_sQ,
 .icon-3Oovq9,
@@ -838,13 +847,41 @@ button,
    background-color: transparent;
 }
 .iconBadge-qZ4Ksk,
-.dotSeparator-2SMscJ {
+.dotSeparator-2SMscJ,
+.dotOnline-8Ag7EB,
+.dotOffline-3DXoDy,
+.status-2L8Zc7 {
    border-radius: var(--borders-icons-dots) !important;
 }
+.container-1r6BKw {
+   -webkit-mask: none !important;
+   mask: none !important;
+}
+.iconBadge-qZ4Ksk {
+   box-shadow: 0 0 0 2px var(--borders-color-unread-pinned-message);
+}
 
-/*-------------------------------*/
-/*-----{Images border shape}-----*/
-/*-------------------------------*/
+/*--------------------------------*/
+/*-----{Labels border shapes}-----*/
+/*--------------------------------*/
+
+.ghostPill-2-KUPM,
+.pill-1dHPfk {
+   border-radius: var(--borders-labels-large);
+}
+.feature-3kpTdS,
+.tierUnlocked-25K6Kv,
+.guildDetails-2p1NmK,
+.bar-30k2ka,
+.label-9FgsSa,
+.badge-_BgAUQ,
+.featureStickers-Pc_FBx .fakeBuyButton-3XrfxO {
+   border-radius: var(--borders-labels-small) !important;
+}
+
+/*-----------------------------------------*/
+/*-----{Images and GIFs border shapes}-----*/
+/*-----------------------------------------*/
 
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j,
 .embedImage-2W1cML img,
@@ -852,15 +889,13 @@ button,
 .embedMedia-1guQoW,
 .container-1_ClKi p>img,
 .imageWrapper-2p5ogY,
-.imageWrapper-2p5ogY img,
-.image-2WjK2f,
-.content-s2SEQO img {
+.imageWrapper-2p5ogY img {
    border-radius: var(--borders-images) !important;
 }
 
-/*-------------------------------*/
-/*-----{Videos border shape}-----*/
-/*-------------------------------*/
+/*--------------------------------*/
+/*-----{Videos border shapes}-----*/
+/*--------------------------------*/
 
 .embedImage-2W1cML video,
 .embedThumbnail-2Y84-K video,
@@ -871,69 +906,60 @@ button,
 .wrapperControlsHidden-35Gtol,
 .wrapperPaused-19pWuK,
 .wrapperPlaying-1pXOW5,
+.videoWrapper-3YdgHH,
 .bd-changelog-modal video {
    border-radius: var(--borders-videos) !important;
 }
 
-/*-------------------------------*/
-/*-----{Audios border shape}-----*/
-/*-------------------------------*/
+/*--------------------------------*/
+/*-----{Audios border shapes}-----*/
+/*--------------------------------*/
 
 .wrapperAudio-1jDe0Q,
 .audioControls-2HsaU6 {
    border-radius: var(--borders-audios);
 }
 
-/*-----------------------------*/
-/*-----{GIFs border shape}-----*/
-/*-----------------------------*/
-
-.gif-1TcNIB,
-.categoryFade-2ybR1J,
-.categoryFadeBlurple-1j72_A,
-.result-3w1ZcL,
-.result-3w1ZcL:after {
-   border-radius: var(--borders-gifs);
-}
-
-/*-------------------------------*/
-/*-----{Embeds border shape}-----*/
-/*-------------------------------*/
+/*--------------------------------*/
+/*-----{Embeds border shapes}-----*/
+/*--------------------------------*/
 
 .embedFull-2tM8-- {
    border-radius: var(--borders-embeds) !important;
 }
 
-/*----------------------------------*/
-/*-----{Reactions border shape}-----*/
-/*----------------------------------*/
+/*-----------------------------------*/
+/*-----{Reactions border shapes}-----*/
+/*-----------------------------------*/
 
 .reaction-1hd86g {
    border-radius: var(--borders-reactions);
 }
 
-/*---------------------------------*/
-/*-----{Mentions border shape}-----*/
-/*---------------------------------*/
+/*----------------------------------*/
+/*-----{Mentions border shapes}-----*/
+/*----------------------------------*/
 
 .interactive {
    border-radius: var(--borders-mentions);
 }
 
-/*------------------------------*/
-/*-----{Roles border shape}-----*/
-/*------------------------------*/
+/*-------------------------------*/
+/*-----{Roles border shapes}-----*/
+/*-------------------------------*/
 
 .role-2irmRk,
-.roleCircle-3xAZ1j,
 .role-1P70N6,
 .roleColor-fHISxl {
-   border-radius: var(--borders-roles);
+   border-radius: var(--borders-roles-outline);
+}
+.roleCircle-3xAZ1j {
+   border-radius: var(--borders-roles-dots);
 }
 
-/*-----------------------------*/
-/*-----{Tags border shape}-----*/
-/*-----------------------------*/
+/*------------------------------*/
+/*-----{Tags border shapes}-----*/
+/*------------------------------*/
 
 .rem-2m9HGf.botTag-2WPJ74,
 .px-10SIf7.botTag-2WPJ74,
@@ -941,18 +967,18 @@ button,
    border-radius: var(--borders-tags);
 }
 
-/*--------------------------------------------*/
-/*-----{Formatting toolbars border shape}-----*/
-/*--------------------------------------------*/
+/*---------------------------------------------*/
+/*-----{Formatting toolbars border shapes}-----*/
+/*---------------------------------------------*/
 
 .toolbar-2bjZV7,
 .bf-toolbar::before {
    border-radius: var(--borders-format-toolbars);
 }
 
-/*------------------------------*/
-/*-----{Codes border shape}-----*/
-/*------------------------------*/
+/*-------------------------------*/
+/*-----{Codes border shapes}-----*/
+/*-------------------------------*/
 
 .markup-2BOw-j code.inline,
 .markup-2BOw-j code,
@@ -961,33 +987,25 @@ button,
    border-radius: var(--borders-codes);
 }
 
-/*---------------------------------*/
-/*-----{Spoilers border shape}-----*/
-/*---------------------------------*/
+/*----------------------------------*/
+/*-----{Spoilers border shapes}-----*/
+/*----------------------------------*/
 
 .spoilerText-3p6IlD {
    border-radius: var(--borders-spoilers);
 }
 
-/*-------------------------------*/
-/*-----{Quotes border shape}-----*/
-/*-------------------------------*/
+/*--------------------------------*/
+/*-----{Quotes border shapes}-----*/
+/*--------------------------------*/
 
 .blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
    border-radius: var(--borders-quotes);
 }
 
-/*------------------------------------------*/
-/*-----{Search highlights border shape}-----*/
-/*------------------------------------------*/
-
-.highlight {
-   border-radius: var(--borders-search-highlights);
-}
-
-/*-------------------------------*/
-/*-----{Toasts border shape}-----*/
-/*-------------------------------*/
+/*--------------------------------*/
+/*-----{Toasts border shapes}-----*/
+/*--------------------------------*/
 
 .toast,
 .bd-toast,
@@ -997,18 +1015,18 @@ button,
    border-radius: var(--borders-toasts) !important;
 }
 
-/*---------------------------------*/
-/*-----{Tooltips border shape}-----*/
-/*---------------------------------*/
+/*----------------------------------*/
+/*-----{Tooltips border shapes}-----*/
+/*----------------------------------*/
 
 .tooltip-2QfLtc,
 .subscribeTooltipWrapper-32-Ce8 {
    border-radius: var(--borders-tooltips);
 }
 
-/*-----------------------------------*/
-/*-----{Scrollbars border shape}-----*/
-/*-----------------------------------*/
+/*------------------------------------*/
+/*-----{Scrollbars border shapes}-----*/
+/*------------------------------------*/
 
 .scrollbarGhost-2F9Zj2::-webkit-scrollbar-thumb,
 .scrollbarGhost-2F9Zj2::-webkit-scrollbar-track,
@@ -1031,15 +1049,15 @@ button,
    border-radius: var(--borders-scrollbars);
 }
 
-/*--------------------------------*/
-/*-----{Editors border shape}-----*/
-/*--------------------------------*/
+/*---------------------------------*/
+/*-----{Editors border shapes}-----*/
+/*---------------------------------*/
 
 .ace_editor {
-   border-radius: var(--borders-editors) var(--borders-editors) 0 0;
-}
-#bd-customcss-attach-controls {
    border-radius: 0 0 var(--borders-editors) var(--borders-editors);
+}
+#bd-editor-controls {
+   border-radius: var(--borders-editors) var(--borders-editors) 0 0;
 }
 .floating-window,
 .powercord-quickcss,
