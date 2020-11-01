@@ -85,7 +85,10 @@ button,
    border-radius: 0 var(--borders-buttons-1) var(--borders-buttons-1) 0 !important;
 }
 .layout-2DM8Md,
-.content-3at_AU {
+.content-3at_AU
+.reactionDefault-GBA58K,
+.reactionSelected-1pqISm,
+#pubslayer .ui-tab-bar-item {
    border-radius: var(--borders-buttons-2);
 }
 .labelContainer-1BLJti,
@@ -215,7 +218,8 @@ button,
 .channelTextArea-2VhZ6z.highlighted-2eSV1B,
 .phoneVerificationModal-OzcDc3 .field-wKpjTl,
 .gameNameInput-385LoS,
-.bd-search-wrapper {
+.bd-search-wrapper,
+#pubslayer input {
    border-radius: var(--borders-inputs);
 }
 .ace_search_field {
@@ -700,6 +704,7 @@ button,
 .perk-2WeBWW,
 .optionContainer-15srkc,
 .wrapper-39oAo3,
+.qrCode-wG6ZgU,
 .authBox-hW6HRx,
 .bd-addon-list .bd-addon-card,
 .bd-server-card,
@@ -771,9 +776,6 @@ button,
 .small-xOVx-r {
    border-radius: var(--borders-activities-small);
 }
-.badge-1JXQev {
-   border-radius: var(--borders-activities-badge);
-}
 .assetsSmallImage-3_3Bzj {
    top: 71%;
    left: 71%;
@@ -791,6 +793,9 @@ button,
 .streamPreview-2-WUWT .assetsSmallImage-3_3Bzj {
    background-color: var(--borders-color-activities-badge-voice) !important;
    border: 2px solid var(--borders-color-activities-badge-voice) !important;
+}
+.badge-1JXQev {
+   border-radius: var(--borders-activities-badge);
 }
 .assetsLargeMaskProfile-1Qkfen,
 .assetsLargeMaskStreamPreview-2V7xlA,
