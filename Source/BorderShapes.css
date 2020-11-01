@@ -777,22 +777,25 @@ button,
    border-radius: var(--borders-activities-small);
 }
 .assetsSmallImage-3_3Bzj {
-   top: 71%;
-   left: 71%;
+   top: 73%;
+   left: 73%;
 }
 .activity-1ythUs .assetsSmallImage-3_3Bzj {
    background-color: var(--borders-color-activities-badge-profile) !important;
-   border: 3px solid var(--borders-color-activities-badge-profile) !important;
+   box-shadow: 0 0 0 3px var(--borders-color-activities-badge-profile) !important;
    border-radius: var(--borders-activities-badge-large) !important;
+   top: 71%;
+   left: 71%;
 }
 .activity-11LB_k .assetsSmallImage-3_3Bzj {
    background-color: var(--borders-color-activities-badge-profile) !important;
-   border: 2px solid var(--borders-color-activities-badge-profile) !important;
+   box-shadow: 0 0 0 2px var(--borders-color-activities-badge-profile) !important;
    border-radius: var(--borders-activities-badge-small) !important;
 }
 .streamPreview-2-WUWT .assetsSmallImage-3_3Bzj {
    background-color: var(--borders-color-activities-badge-voice) !important;
-   border: 2px solid var(--borders-color-activities-badge-voice) !important;
+   box-shadow: 0 0 0 2px var(--borders-color-activities-badge-voice) !important;
+   border-radius: var(--borders-activities-badge-small) !important;
 }
 .badge-1JXQev {
    border-radius: var(--borders-activities-badge);
