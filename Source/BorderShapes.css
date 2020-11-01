@@ -771,28 +771,26 @@ button,
 .small-xOVx-r {
    border-radius: var(--borders-activities-small);
 }
+.badge-1JXQev {
+   border-radius: var(--borders-activities-badge);
+}
+.assetsSmallImage-3_3Bzj {
+   top: 71%;
+   left: 71%;
+}
 .activity-1ythUs .assetsSmallImage-3_3Bzj {
    background-color: var(--borders-color-activities-badge-profile) !important;
    border: 3px solid var(--borders-color-activities-badge-profile) !important;
    border-radius: var(--borders-activities-badge-large) !important;
-   top: 72%;
-   left: 71%;
 }
 .activity-11LB_k .assetsSmallImage-3_3Bzj {
    background-color: var(--borders-color-activities-badge-profile) !important;
    border: 2px solid var(--borders-color-activities-badge-profile) !important;
    border-radius: var(--borders-activities-badge-small) !important;
-   top: 70%;
-   left: 71%;
 }
 .streamPreview-2-WUWT .assetsSmallImage-3_3Bzj {
    background-color: var(--borders-color-activities-badge-voice) !important;
    border: 2px solid var(--borders-color-activities-badge-voice) !important;
-   top: 70%;
-   left: 71%;
-}
-.badge-1JXQev {
-   border-radius: var(--borders-activities-badge);
 }
 .assetsLargeMaskProfile-1Qkfen,
 .assetsLargeMaskStreamPreview-2V7xlA,
